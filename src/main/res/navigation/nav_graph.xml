@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/toDoListFragment">
+
+    <fragment
+        android:id="@+id/toDoListFragment"
+        android:name="com.example.projectToDoList.view.ToDoListFragment"
+        android:label="fragment_to_do_list"
+        tools:layout="@layout/fragment_to_do_list" >
+        <action
+            android:id="@+id/action_toDoListFragment_to_toDoAddFragment"
+            app:destination="@id/toDoAddFragment" />
+        <action
+            android:id="@+id/action_toDoListFragment_to_toDoDetailsFragment"
+            app:destination="@id/toDoDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/toDoAddFragment"
+        android:name="com.example.projectToDoList.view.ToDoAddFragment"
+        android:label="fragment_to_do_add"
+        tools:layout="@layout/fragment_to_do_add" />
+    <fragment
+        android:id="@+id/toDoDetailsFragment"
+        android:name="com.example.projectToDoList.view.ToDoDetailsFragment"
+        android:label="fragment_to_do_details"
+        tools:layout="@layout/fragment_to_do_details" />
+</navigation>
