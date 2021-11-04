@@ -32,7 +32,7 @@ and I tried to Run the app and solved the erroes.
 than I serched in different website like medium,google and asked my teachers .
 * Another problem solving strategy is Mr.Mohamed, Mr.Saad, and classmate hassan 
  # List unsolved problems which would be fixed in future iterations.
-  spinner,  map location
+    map location
 ## Describe how some of your favourite functions  work ?
 onBindViewHolder and getItemCount 
 allows me to attach data to the recycler view
